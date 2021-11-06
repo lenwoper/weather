@@ -9,7 +9,7 @@
 
         }
         else{
-            if(Tar.style.display==="none"){
+            if(Tar.style.display=="none"){
             Tar.style.display="block";
             inner_ch.innerHTML="HIDE";
         }
