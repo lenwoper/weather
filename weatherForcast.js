@@ -15,7 +15,7 @@
         }
         else{
             Tar.style.display="none";
-            inner_ch.innerHTML="FORCAST";
+            inner_ch.innerHTML="FORECAST";
             
         }
         }
@@ -126,7 +126,7 @@ console.log(data);
 						condition3 = data["forecast"]["forecastday"][2]["day"]["condition"]["text"];
 
 
-						document.getElementById("forcasting").innerHTML = "<h4>Next two days Forcasted  </h4> <br>"+
+						document.getElementById("forcasting").innerHTML = "<h4>Next two days Forecasted  </h4> <br>"+
 							" Date : " + Datea2 + "<br>  Moonphase : " + moonphase2 + "<br>  Sunset : " + sunrise2 + "<br>  Sunrise : " + sunrise2 + "<br>  Fahrenheit :" + maxtempF2 + "<br> Celsius : " + maxtempC2 + "<br> Wind speed :" + maxWindSpeed2 + " km " + "<br> Chance of Rain :" + daily_chance_of_rain2 +"%"+ "<br> Condition :" + condition2 +
 							"<br><br>  Date : " + Datea3 + "<br>  Moonphase : " + moonphase3 + "<br>  Sunset : " + sunrise3 + "<br>  Sunrise : " + sunrise3 + "<br>  Fahrenheit :" + maxtempF3 + "<br> Celsius : " + maxtempC3 + "<br> Wind speed :" + maxWindSpeed3 + " km " + "<br> Chance of Rain :" + daily_chance_of_rain3 + "%"+ "<br> Condition :" + condition3;
 
